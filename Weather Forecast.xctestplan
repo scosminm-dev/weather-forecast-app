@@ -1,0 +1,41 @@
+{
+  "configurations" : [
+    {
+      "id" : "504475E5-7FA9-4FC1-93AF-668D41E1151D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "locationScenario" : {
+      "identifier" : "London, England",
+      "referenceType" : "built-in"
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Weather Forecast.xcodeproj",
+      "identifier" : "2DC9ABD2308673FF0023730E",
+      "name" : "Weather Forecast"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Weather Forecast.xcodeproj",
+        "identifier" : "2DC9ABE8308674040023730E",
+        "name" : "Weather ForecastTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Weather Forecast.xcodeproj",
+        "identifier" : "2DC9ABF2308674040023730E",
+        "name" : "Weather ForecastUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
