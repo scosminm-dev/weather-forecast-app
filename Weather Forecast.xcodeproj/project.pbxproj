@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2D5B0AEE308E427F001FFD24 /* Exceptions for "Weather Forecast" folder in "Weather Forecast" target */ = {
+		2D5B0AEE308E427F001FFD24 /* Exceptions for "Weather Forecaster" folder in "Weather Forecast" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,12 +40,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2DC9ABD5308673FF0023730E /* Weather Forecast */ = {
+		2DC9ABD5308673FF0023730E /* Weather Forecaster */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2D5B0AEE308E427F001FFD24 /* Exceptions for "Weather Forecast" folder in "Weather Forecast" target */,
+				2D5B0AEE308E427F001FFD24 /* Exceptions for "Weather Forecaster" folder in "Weather Forecast" target */,
 			);
-			path = "Weather Forecast";
+			path = "Weather Forecaster";
 			sourceTree = "<group>";
 		};
 		2DC9ABEC308674040023730E /* Weather ForecastTests */ = {
@@ -88,7 +88,7 @@
 		2DC9ABCA308673FF0023730E = {
 			isa = PBXGroup;
 			children = (
-				2DC9ABD5308673FF0023730E /* Weather Forecast */,
+				2DC9ABD5308673FF0023730E /* Weather Forecaster */,
 				2DC9ABEC308674040023730E /* Weather ForecastTests */,
 				2DC9ABF6308674040023730E /* Weather ForecastUITests */,
 				2DC9ABD4308673FF0023730E /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2DC9ABD5308673FF0023730E /* Weather Forecast */,
+				2DC9ABD5308673FF0023730E /* Weather Forecaster */,
 			);
 			name = "Weather Forecast";
 			packageProductDependencies = (
